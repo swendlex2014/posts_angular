@@ -6,7 +6,7 @@
 
 		$scope.update = function(ID){
 			$location.path('entry/' + ID);
-			dataServ.getServData('entry', ID).then(function(data){
+			dataServ.getServData('posts/entry', ID).then(function(data){
 				$scope.post = data;
 				setTimeout(document.wsConfig.init, 200);
 			});

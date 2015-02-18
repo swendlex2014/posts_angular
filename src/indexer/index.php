@@ -2,16 +2,18 @@
 <html dir="ltr" lang="fr" ng-app="wsapp">
 <head>
   <!-- generate_base -->
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <?php require_once('seo.php') ?>
+  
   <link rel="stylesheet" type="text/css" href="css/arrows.css" />
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/highlight.css" />
   <link rel="stylesheet" type="text/css" href="css/component.css" />
   <link rel="stylesheet" type="text/css" href="css/blog.css" />
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body class="blog-entry">
   <div class="svg-wrap">
@@ -56,11 +58,12 @@
     <button class="trigger" data-info="Read More..."><span>Trigger</span></button>
     <article class="content">
       <div>
-      <span ng-bind-html="post.entry.p | sanitize"></span>
+        <span ng-bind-html="post.entry.p | sanitize"></span>
       </div>
     </article>
   </div>
-
+  
+  <!-- Scripts  -->
   <script type="text/javascript" src="js/highlight.min.js"></script>
   <script type="text/javascript" src="js/dependencies/showdown.min.js"></script>
   <script type="text/javascript" src="js/angular/angular.min.js"></script>
