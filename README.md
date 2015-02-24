@@ -11,7 +11,7 @@ Author
 Wendly Saintil  
 [website] http://wspecs.com
 
-Boring legal stuff
+Legal
 ------------------
 
 Copyright (c) 2011-2014, Wendly Saintil
