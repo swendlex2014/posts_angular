@@ -1,17 +1,25 @@
-posts_angular
-==============
+Site Starter for Angular
+=====================
 
-Online Website
-----------------
-[Online Link] (http://wspecs.com/posts)
+Installation
+--------------
+```
+$ npm install
+$ grunt
+```
 
+Tools
+------
+* AngularJs
+* GruntJs
+* NodeJS 
 
 Author
 ------
 Wendly Saintil  
-[website] http://wspecs.com
+[website] (http://wspecs.com)
 
-Boring legal stuff
+Legal
 ------------------
 
 Copyright (c) 2011-2014, Wendly Saintil
@@ -23,4 +31,3 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
