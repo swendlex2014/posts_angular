@@ -1,0 +1,27 @@
+<div id="main" role="main">
+
+	<div class="container">
+		<h2 class="pg-title">WSpecs Posts Catalog</h2>
+	</div>
+
+	<div class="container grid">
+		<div class="inner">
+			<article ng-repeat="w in entries.posts" class="post type-post status-publish format-standard hentry category-uncategorized">
+				<header>
+					<h2><a href="{{w.ID}}" rel="bookmark" title="{{w.t}}">{{w.t}}</a></h2>
+				</header>
+				<a href="{{w.ID}}" rel="bookmark">
+					<span class="feat-img">
+						<img ng-src="{{w.i}}" class="attachment-full wp-post-image" alt="{{w.t}}" />
+					</span>
+				</a>
+				<section class="post-content">
+					<p><span ng-bind-html="w.s | sanitize"></span> <a href="{{w.ID}}" class="more-link">{{w.rd}} &raquo;</a></p>
+				</section>
+				<footer>
+					<time datetime="{{w.dt}}">{{w.d}}</time>
+				</footer>
+			</article>
+		</div>
+	</div>
+</div>
